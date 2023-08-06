@@ -7,18 +7,18 @@ export const AuthProvider = ({ children }) => {
   const [usuarioLogado, setUsuarioLogado] = useState();
   const [usuariosCadastrados, setUsuariosCadastrados] = useState([
     {
-      nome: "Erico",
-      email: "erico@gmail.com",
+      nome: "Manoel",
+      email: "manoel@gmail.com",
       senha: "1234",
     },
     {
-      nome: "Josefino",
-      email: "josef77@gmail.com",
+      nome: "Jocó José",
+      email: "joseff@gmail.com",
       senha: "1234",
     },
     {
-      nome : "Ana",
-      email : "a@a",
+      nome : "Marta",
+      email : "martabb@gmail.com",
       senha : "1"
     }
   ]);
